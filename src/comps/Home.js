@@ -52,7 +52,6 @@ function Home() {
       </div>
 
       {/* Top Main, call to action */}
-      <div className="body">
 
       <div className="main_1_div">
         <img className="main_1" src={main_1}/>
@@ -95,12 +94,21 @@ function Home() {
 
       <div className="sub_main_buttom">
         <img className="wood_background" src={wood_back}/>
+        <div className="sub_main_buttom_content">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11072.634574584958!2d-118.3036968!3d46.0678778!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf84cee58592f3443!2sDouble%20up%20Barber%20studio!5e0!3m2!1sen!2sus!4v1657053296420!5m2!1sen!2sus" allowfullscreen></iframe>
+        <p className="cal_schedule">MON 7-8 <br/>
+        MON 7-8 <br/>
+        MON 7-8 <br/>
+        MON 7-8 <br/>
+        MON 7-8 <br/>
+        MON 7-8 <br/>
+        </p>
+        </div>
       </div>
 
       <div className="footer">
       </div>  
 
-    </div>
     </div>
   );
 }

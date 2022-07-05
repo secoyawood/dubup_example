@@ -154,6 +154,11 @@
   border-color: rgb(205, 205, 205);
 }
 
+.sub_main_grid_div{
+  
+  z-index: 2;
+}
+
 
 .grid_img {
   width: 20%;
@@ -171,15 +176,41 @@
 }
 
 .sub_main_buttom {
+  background-color: #090909;
+  padding: 0%;
+  /* margin-bottom: -13%; */
+  border-top-left-radius: 4px;
 }
 
 .wood_background {
   width: 100%;
+  /* height: 125vh; */
+  box-shadow: 0 -5px 10px grey;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.sub_main_buttom_content {
+  width: 100%;
+  position: relative;
+  top: -500px;
+  display: flex;
+  align-items: center;
+}
+
+.cal_schedule {
+  border: 2px solid red;
+  width: 50%;
+}
+
+iframe {
+  border: 2px solid red;
+  width: 50%;
 }
 
 
 .footer {
   background-color: #090909;
-
+  margin: 0;
   padding: 5%;
 }
